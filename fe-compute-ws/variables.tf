@@ -5,7 +5,7 @@ variable "region" {
 
 variable "fe_instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t2.micro"
+  default     = "t3.small"
 }
 variable "frontend_environment" {
   description = "The environment for the frontend resources."
