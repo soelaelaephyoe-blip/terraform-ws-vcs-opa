@@ -27,3 +27,8 @@ variable "frontend_private_subnet_cidr" {
   description = "The CIDR block for the frontend private subnets."
   default     = ["10.9.253.0/24", "10.9.254.0/24", "10.9.255.0/24"]
 }
+
+variable "frontend_private_subnet_cidr1" {
+  description = "The CIDR block for the frontend private subnets."
+  default     = ["10.9.253.0/24", "10.9.254.0/24", "10.9.255.0/24"]
+}
