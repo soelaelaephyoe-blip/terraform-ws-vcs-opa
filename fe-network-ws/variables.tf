@@ -15,7 +15,7 @@ variable "frontend_environment" {
 
 variable "region" {
   description = "The region where the resources are created."
-  default     = "ap-northeast-1"
+  default     = "ap-southeast-1"
 }
 
 variable "frontend_public_subnet_cidr" {
